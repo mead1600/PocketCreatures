@@ -1,4 +1,5 @@
 package Rooms;
 
-public class Road {
+public class Road extends House{
+
 }
