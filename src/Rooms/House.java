@@ -1,12 +1,9 @@
 package Rooms;
 
-public class House {
-    //Field
-    public String[][] board;
+public class House extends Board{
 
-    //Constructs the board field
-    public House(String[][] board)
+    public House(String[][] field)
     {
-        this.board = board;
+        super(field);
     }
 }
