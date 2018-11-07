@@ -6,7 +6,9 @@ package Creatures;
  */
 public class Person {
     int xLoc, yLoc;
+    String type;
 
+    public int getType(String type){this.type = type;}
 
     public int getxLoc() {
         return xLoc;
